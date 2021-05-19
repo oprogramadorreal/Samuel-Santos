@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8894056869091742257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8894056869091742259}
+  - component: {fileID: 8894056869091742256}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8894056869091742259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8894056869091742257}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8894056869091742256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8894056869091742257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f70fbb276ec45594682e4ccc35840a2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allSoundsList:
+  - name: GunShot
+    prefab: {fileID: 8455557595214137257, guid: de6801f6442b0c843905c64705665b3f, type: 3}
+  - name: BulletHit
+    prefab: {fileID: 3609407266866447637, guid: 7e153844e40104d4dbe6aa8721c9598f, type: 3}
+  - name: GunEquip
+    prefab: {fileID: 3164156406994736058, guid: d0314056f84420945b2f3146b41aa7e3, type: 3}
+  - name: SwordEquip
+    prefab: {fileID: 7685415911569064469, guid: 1210afc328ab1934582e99ea7fa70700, type: 3}
+  - name: WeaponUnequip
+    prefab: {fileID: 7696942916219140160, guid: 58a8aee859c4d384ea586fa515b078cf, type: 3}
+  - name: Grab
+    prefab: {fileID: 162937805799273940, guid: 107bbd4f5f63edd42915d1f439c7de7f, type: 3}
+  - name: SwordHit
+    prefab: {fileID: 4551512785241370175, guid: fcd450da8b566b1439f308f2f2924835, type: 3}
+  - name: BodyHit
+    prefab: {fileID: 3304806353460757258, guid: 3140c828c75accc45bc9620519f3fa74, type: 3}
+  - name: LimbDestroyed
+    prefab: {fileID: 4621090303887682086, guid: 19df8d83e3831144e803ad822657b394, type: 3}
+  - name: StickmanDie
+    prefab: {fileID: 4205187259565917740, guid: 1e303bfaf9366184a87e98412d933a00, type: 3}
+  - name: MenuButton
+    prefab: {fileID: 7594949851481222309, guid: 09ab41651ef16de45ae2eb19be63dac9, type: 3}
+  - name: MusicClassic
+    prefab: {fileID: 5994859044385178758, guid: 59ddeedab9ed2aa4798f666a203fbea1, type: 3}
+  - name: MusicRock
+    prefab: {fileID: 5994859044385178758, guid: 5e0a35a022478f24d9f74db3f221eb64, type: 3}
+  - name: MusicElectronic
+    prefab: {fileID: 5994859044385178758, guid: 76e7c1e4b3059b547ba40ff441492e25, type: 3}
+  - name: GameOver
+    prefab: {fileID: 6047906302895433284, guid: 2117ed008f0581e489a132dd3444cd29, type: 3}
+  - name: MusicClassic2
+    prefab: {fileID: 5994859044385178758, guid: 27c6ebd9b1ecf344f93e8f382d95bae5, type: 3}
